@@ -1,0 +1,110 @@
+{
+  "bucket_data": {
+    "pages": {
+      "56865466a0fb45deb7f545c26ca437a9": {
+        "created": "1564511155621",
+        "id": "56865466a0fb45deb7f545c26ca437a9",
+        "layout": {
+          "__start__": {
+            "contains": [
+              "component_c29a612c549879d0fe1bf10dcaaee93b"
+            ],
+            "h": "100%",
+            "id": "__start__",
+            "layout_type": "page_components",
+            "type": "container",
+            "w": "100%"
+          },
+          "component_c29a612c549879d0fe1bf10dcaaee93b": {
+            "attributes": {
+              "button_height": 60,
+              "button_sizing": "specify",
+              "button_width": 100,
+              "component": "navigator",
+              "csstags": "",
+              "event_name": "",
+              "id": "838ecfc7f1b6424320f0658f94cd0989",
+              "menu_width": 300,
+              "name": "",
+              "navigator": "7d3a9542ed3c416493e5caadc67b0349",
+              "type": "circles"
+            },
+            "component": "navigator",
+            "h": "100%",
+            "id": "component_c29a612c549879d0fe1bf10dcaaee93b",
+            "name": "component_c29a612c549879d0fe1bf10dcaaee93b",
+            "needs_subpage_target": true,
+            "page_loading": false,
+            "type": "component",
+            "w": "100%"
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "home",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

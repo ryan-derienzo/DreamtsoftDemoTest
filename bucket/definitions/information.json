@@ -1,0 +1,157 @@
+{
+    "bucket_definition": {
+        "qjggb4ft": {
+            "attributes": { },
+            "id": "qjggb4ft",
+            "labels": {
+                "label": "Information",
+                "labelp": "Informations"
+            },
+            "name": "information",
+            "schema_tag": "",
+            "slots": [
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Favorite Song",
+                        "labelp": "Favorite Songs"
+                    },
+                    "name": "favorite_song",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "default_rows": "4"
+                    },
+                    "labels": {
+                        "label": "Description of Yourself",
+                        "labelp": "Description of Yourselves"
+                    },
+                    "name": "description_of_yourself",
+                    "type": "big_string"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Favorite Food",
+                        "labelp": "Favorite Foods"
+                    },
+                    "name": "favorite_food",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Last Name",
+                        "labelp": "Last Names"
+                    },
+                    "name": "last_name",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "parent": "record",
+                        "thumbnail_height": "0",
+                        "thumbnail_width": "0"
+                    },
+                    "labels": {
+                        "label": "Profile Picture",
+                        "labelp": "Profile Pictures"
+                    },
+                    "name": "profile_picture",
+                    "type": "image"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Job",
+                        "labelp": "Jobs"
+                    },
+                    "name": "job",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "First Name",
+                        "labelp": "First Names"
+                    },
+                    "name": "first_name",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "format": "true",
+                        "greater_validation": "0",
+                        "greater_value": "0",
+                        "less_validation": "0",
+                        "less_value": "0",
+                        "range_max": "0",
+                        "range_min": "0",
+                        "range_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Age",
+                        "labelp": "Ages"
+                    },
+                    "name": "age",
+                    "type": "integer"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Email",
+                        "labelp": "Emails"
+                    },
+                    "name": "email",
+                    "type": "string"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Favorite Movie",
+                        "labelp": "Favorite Movies"
+                    },
+                    "name": "favorite_movie",
+                    "type": "string"
+                }
+            ],
+            "type": "records"
+        }
+    }
+}

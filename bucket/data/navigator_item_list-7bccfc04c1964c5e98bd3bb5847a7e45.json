@@ -1,0 +1,28 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "7bccfc04c1964c5e98bd3bb5847a7e45": {
+        "bucket": "qjggb4ft",
+        "color": "#0000ff",
+        "condition": [ ],
+        "created": "1564511154971",
+        "description": "",
+        "icon": "fontawesome:info",
+        "id": "7bccfc04c1964c5e98bd3bb5847a7e45",
+        "label": "Information",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "order": "0",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "parent": "7d3a9542ed3c416493e5caadc67b0349",
+        "schema_version": "0.0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "subpage": "",
+        "system_updated": "0",
+        "view": ""
+      }
+    }
+  }
+}

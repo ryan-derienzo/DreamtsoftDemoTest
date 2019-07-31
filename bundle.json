@@ -1,0 +1,22 @@
+{
+   "autoload": [ ],
+   "bundle_name": "testing_things_2",
+   "dependencies": [
+      {
+         "id": "ds.base",
+         "version": "1.10.0"
+      }
+   ],
+   "icon": "fontawesome:twitch",
+   "icon_color": "#e8fa0c",
+   "id": "dev.testing_things_2",
+   "page_banner": "",
+   "parametrics_form": null,
+   "platform_version": "",
+   "schema_version": "0.0",
+   "shell_layout": null,
+   "theme": "",
+   "title": "Testing Things 2",
+   "vendor": "dev",
+   "version": "0.1.0"
+}

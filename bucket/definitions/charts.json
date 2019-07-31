@@ -1,0 +1,40 @@
+{
+    "bucket_definition": {
+        "prhcn2w8": {
+            "attributes": { },
+            "id": "prhcn2w8",
+            "labels": {
+                "label": "Charts",
+                "labelp": "Charts"
+            },
+            "name": "charts",
+            "schema_tag": "",
+            "slots": [
+                {
+                    "attributes": { },
+                    "labels": {
+                        "label": "Charts",
+                        "labelp": "Charts"
+                    },
+                    "name": "charts",
+                    "type": "chart_designer"
+                },
+                {
+                    "attributes": {
+                        "maxlength": "0",
+                        "only_alphanum": "false",
+                        "only_uppercase": "false",
+                        "pattern_validation": "0"
+                    },
+                    "labels": {
+                        "label": "Data",
+                        "labelp": "Datas"
+                    },
+                    "name": "data",
+                    "type": "string"
+                }
+            ],
+            "type": "records"
+        }
+    }
+}

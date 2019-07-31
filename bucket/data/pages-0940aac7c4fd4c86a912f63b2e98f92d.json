@@ -1,0 +1,263 @@
+{
+  "bucket_data": {
+    "pages": {
+      "0940aac7c4fd4c86a912f63b2e98f92d": {
+        "created": "1564512682485",
+        "id": "0940aac7c4fd4c86a912f63b2e98f92d",
+        "layout": {
+          "__start__": {
+            "contains": [
+              "component_bc558139ae12142e653fb71f5c6f9826",
+              "component_f1ed073c7ffaba18f36f3578780a2cd3"
+            ],
+            "h": "100%",
+            "id": "__start__",
+            "type": "container",
+            "w": "100%"
+          },
+          "component_bc558139ae12142e653fb71f5c6f9826": {
+            "attributes": {
+              "__raw": {
+                "query": "%{pageVars.q}"
+              },
+              "bucket": "buckets",
+              "component": "details",
+              "csstags": "",
+              "id": "164c08c86511cb1a1efc3b0e34889d91",
+              "include_actions": true,
+              "layout": {
+                "layout": {
+                  "layout": [
+                    {
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "labels",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "id",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "name",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "type",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 1,
+                      "guid": "n5qaor",
+                      "type": "section"
+                    },
+                    {
+                      "colData": [
+                        {
+                          "column": 0
+                        },
+                        {
+                          "column": 1
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "parent",
+                            "type": "slot"
+                          }
+                        ],
+                        [
+                          {
+                            "name": "schema_tag",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 2,
+                      "guid": "iqal57",
+                      "type": "section"
+                    },
+                    {
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "attributes",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 1,
+                      "guid": "dd2c4e1b3c000c49ef86dcb165127091",
+                      "type": "section"
+                    },
+                    {
+                      "colData": [
+                        {
+                          "column": 0,
+                          "templateClass": "single_widget",
+                          "title": "Slots"
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "slots",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 1,
+                      "guid": "ab526d15af285d50be0aa96c17e5e222",
+                      "type": "section"
+                    }
+                  ],
+                  "pageData": { },
+                  "version": 1
+                }
+              },
+              "new_record": "false",
+              "new_record_values": "[]",
+              "query": "%{pageVars.q}",
+              "read_only": "false"
+            },
+            "component": "details",
+            "h": "50%",
+            "id": "component_bc558139ae12142e653fb71f5c6f9826",
+            "name": "component_bc558139ae12142e653fb71f5c6f9826",
+            "needs_subpage_target": false,
+            "type": "component",
+            "w": "100%"
+          },
+          "component_f1ed073c7ffaba18f36f3578780a2cd3": {
+            "attributes": {
+              "__raw": {
+                "parent_query": "%{pageVars.q}"
+              },
+              "component": "related",
+              "csstags": "",
+              "id": "e0a3c75ab004df9efdf04eeb541538f2",
+              "parent_query": "%{pageVars.q}",
+              "related": [
+                {
+                  "label": "Labels (record)",
+                  "value": "labels.record"
+                },
+                {
+                  "hidden": "[]",
+                  "label": "Security Bucket (bucket)",
+                  "sortBy": "",
+                  "sortDirection": "ascending",
+                  "tabLabel": "Security",
+                  "value": "security_bucket.bucket"
+                },
+                {
+                  "hidden": "[[[\"type\",\"eq\",\"config\",\"Config\"]]]",
+                  "label": "Audit Configuration (bucket)",
+                  "sortBy": "",
+                  "sortDirection": "ascending",
+                  "tabLabel": "",
+                  "value": "audit_configuration.bucket"
+                },
+                {
+                  "enable_picker": false,
+                  "hidden": "[]",
+                  "label": "Bucket (parent)",
+                  "many_link_behavior": "linked_record",
+                  "sortBy": "",
+                  "sortDirection": "ascending",
+                  "tabLabel": "Child Buckets",
+                  "value": "buckets.parent"
+                }
+              ]
+            },
+            "component": "related",
+            "h": "50%",
+            "id": "component_f1ed073c7ffaba18f36f3578780a2cd3",
+            "name": "component_f1ed073c7ffaba18f36f3578780a2cd3",
+            "needs_subpage_target": false,
+            "type": "component",
+            "w": "100%"
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "details.default.buckets",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

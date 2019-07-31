@@ -1,0 +1,200 @@
+{
+  "bucket_data": {
+    "pages": {
+      "d55b4b49ba9b43a09a3ceb8f73edb4e8": {
+        "created": "1564511314933",
+        "id": "d55b4b49ba9b43a09a3ceb8f73edb4e8",
+        "layout": {
+          "__start__": {
+            "contains": [
+              "component_90149531a8b10b19c9271bcfc4495504"
+            ],
+            "h": "100%",
+            "id": "__start__",
+            "type": "container",
+            "w": "100%"
+          },
+          "component_90149531a8b10b19c9271bcfc4495504": {
+            "attributes": {
+              "__raw": {
+                "query": "%{pageVars.q}"
+              },
+              "bucket": "qjggb4ft",
+              "component": "details",
+              "csstags": "",
+              "id": "1509dee85dbcbcc3d39204e3c3b1a953",
+              "include_actions": "1",
+              "layout": {
+                "layout": {
+                  "layout": [
+                    {
+                      "colData": [
+                        {
+                          "column": 0
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "profile_picture",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 1,
+                      "guid": "w0cfsr",
+                      "type": "section"
+                    },
+                    {
+                      "colData": [
+                        {
+                          "column": 0
+                        },
+                        {
+                          "column": 1
+                        }
+                      ],
+                      "cols": [
+                        [
+                          {
+                            "name": "first_name",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "email",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "job",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "favorite_song",
+                            "type": "slot"
+                          }
+                        ],
+                        [
+                          {
+                            "name": "last_name",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "age",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "favorite_movie",
+                            "type": "slot"
+                          },
+                          {
+                            "name": "favorite_food",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "columns": 2,
+                      "guid": "vjkeln",
+                      "type": "section"
+                    },
+                    {
+                      "colData": [ ],
+                      "cols": [
+                        [
+                          {
+                            "name": "description_of_yourself",
+                            "type": "slot"
+                          }
+                        ]
+                      ],
+                      "guid": "wcdqih",
+                      "type": "section"
+                    }
+                  ],
+                  "pageData": { },
+                  "version": 1
+                }
+              },
+              "new_record": "false",
+              "new_record_values": "[]",
+              "query": "%{pageVars.q}",
+              "read_only": "false",
+              "view": "default"
+            },
+            "component": "details",
+            "h": "100%",
+            "id": "component_90149531a8b10b19c9271bcfc4495504",
+            "name": "component_90149531a8b10b19c9271bcfc4495504",
+            "needs_subpage_target": false,
+            "type": "component",
+            "w": "100%"
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "details.default.information",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}

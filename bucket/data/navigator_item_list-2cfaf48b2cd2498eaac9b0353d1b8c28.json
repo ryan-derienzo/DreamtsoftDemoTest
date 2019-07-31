@@ -1,0 +1,28 @@
+{
+  "bucket_data": {
+    "navigator_item_list": {
+      "2cfaf48b2cd2498eaac9b0353d1b8c28": {
+        "bucket": "prhcn2w8",
+        "color": "#2cef3a",
+        "condition": [ ],
+        "created": "1564512814886",
+        "description": "",
+        "icon": "fontawesome:pie-chart",
+        "id": "2cfaf48b2cd2498eaac9b0353d1b8c28",
+        "label": "Chart",
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "order": "1",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "parent": "7d3a9542ed3c416493e5caadc67b0349",
+        "schema_version": "0.0",
+        "sort_by": "",
+        "sort_direction": "ascending",
+        "subpage": "",
+        "system_updated": "0",
+        "view": ""
+      }
+    }
+  }
+}

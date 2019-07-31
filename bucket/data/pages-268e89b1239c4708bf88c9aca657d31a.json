@@ -1,0 +1,187 @@
+{
+  "bucket_data": {
+    "pages": {
+      "268e89b1239c4708bf88c9aca657d31a": {
+        "created": "1564512448973",
+        "id": "268e89b1239c4708bf88c9aca657d31a",
+        "layout": {
+          "__start__": {
+            "contains": [
+              "component_8610b98400ac5899413e4a58b1a533c6",
+              "component_22afc6b7762c0593b7ad3bde9fec4fe0"
+            ],
+            "h": "100%",
+            "id": "__start__",
+            "layout_type": "page_components",
+            "type": "container",
+            "w": "100%"
+          },
+          "component_22afc6b7762c0593b7ad3bde9fec4fe0": {
+            "attributes": {
+              "allow_sorting": "true",
+              "bucket": "prhcn2w8",
+              "columns": [
+                "charts"
+              ],
+              "component": "list",
+              "csstags": "",
+              "details_layout": "",
+              "force_condition": "[]",
+              "height": 300,
+              "height_option": "",
+              "id": "4e61f84ee89bd5acad55475710518712",
+              "inline_details": false,
+              "list_spacing": "",
+              "refresh_interval": 0,
+              "show_subtenant_data": false,
+              "skip_url_changes": false,
+              "title": "",
+              "use_details": "false",
+              "view": "default"
+            },
+            "component": "list",
+            "h": "50%",
+            "id": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "name": "component_22afc6b7762c0593b7ad3bde9fec4fe0",
+            "needs_subpage_target": false,
+            "type": "component",
+            "w": "100%"
+          },
+          "component_8610b98400ac5899413e4a58b1a533c6": {
+            "attributes": {
+              "bar_height": "98%",
+              "chart_sample": "",
+              "chart_title": "",
+              "component": "chart",
+              "csstags": "",
+              "data_labels": "false",
+              "datasets": [
+                {
+                  "13": "numeric",
+                  "15": "month",
+                  "2": "count",
+                  "8": "bar",
+                  "bin_size": "0",
+                  "bin_slot": "append_max_values",
+                  "bin_type": "numeric",
+                  "bin_unit": "month",
+                  "binning": "0",
+                  "bucket": "chart",
+                  "condition": "[]",
+                  "display_as": "bar",
+                  "format": "",
+                  "id": "cee7bd60b3f2c712be673b3a4473225e",
+                  "label_slot": "append_max_values",
+                  "parent_type": "pie",
+                  "title": "New",
+                  "value_slot": "append_max_values",
+                  "value_type": "count",
+                  "yaxis_right": "0"
+                }
+              ],
+              "dynamic_dataset": false,
+              "gauge_label_format": "",
+              "height": "350",
+              "horizontal": "0",
+              "icon_bg": "",
+              "id": "add6d5382a0fb087acef2254c499afea",
+              "maximum_value": "100",
+              "no_value_label": "No value",
+              "pie_size": "50%",
+              "show_legend": "top",
+              "show_points": "true",
+              "show_title": "top",
+              "show_tooltips": true,
+              "show_xaxis": true,
+              "show_yaxis": true,
+              "stacked": "0",
+              "time_unit_for_dates": "month",
+              "tooltip_format_for_dates": "",
+              "type": "pie",
+              "xaxes_scale_label": "",
+              "yAxisFormat": "",
+              "yAxisFormatRight": "",
+              "yaxes_scale_label": "",
+              "yaxis_range": false,
+              "yaxis_range_max": 100,
+              "yaxis_range_min": 0
+            },
+            "component": "chart",
+            "h": "50%",
+            "id": "component_8610b98400ac5899413e4a58b1a533c6",
+            "name": "component_8610b98400ac5899413e4a58b1a533c6",
+            "needs_subpage_target": false,
+            "page_loading": false,
+            "type": "component",
+            "w": "100%"
+          }
+        },
+        "meta_classification": "",
+        "meta_datatag": "",
+        "meta_schema": "",
+        "name": "list.default.charts",
+        "owner": "6a274cb144c74116acf2cfc306637969",
+        "page_vars": {
+          "layout": {
+            "layout": [
+              {
+                "colData": [ ],
+                "cols": [
+                  [
+                    {
+                      "name": "q",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "bucket",
+                      "type": "slot"
+                    },
+                    {
+                      "name": "id",
+                      "type": "slot"
+                    }
+                  ]
+                ],
+                "type": "section"
+              }
+            ],
+            "version": 1
+          },
+          "slots": {
+            "bucket": {
+              "attributes": { },
+              "labels": {
+                "label": "Bucket",
+                "labelp": "Buckets"
+              },
+              "name": "bucket",
+              "type": "string"
+            },
+            "id": {
+              "attributes": { },
+              "labels": {
+                "label": "Id",
+                "labelp": "Ids"
+              },
+              "name": "id",
+              "type": "string"
+            },
+            "q": {
+              "attributes": { },
+              "labels": {
+                "label": "Query",
+                "labelp": "Queries"
+              },
+              "name": "q",
+              "type": "string"
+            }
+          }
+        },
+        "public": "0",
+        "schema_version": "0.0",
+        "system_updated": "0",
+        "title": ""
+      }
+    }
+  }
+}
